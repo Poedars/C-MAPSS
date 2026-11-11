@@ -1,0 +1,164 @@
+/workspace/scratch/4507c02ba004/deps/keras/src/layers/rnn/rnn.py:199: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+/workspace/scratch/4507c02ba004/deps/keras/src/trainers/epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/10
+114/114 - 10s - 88ms/step - loss: 3303.8306 - val_loss: 767.0474 - learning_rate: 0.0010
+Epoch 2/10
+114/114 - 6s - 55ms/step - loss: 602.2977 - val_loss: 351.1908 - learning_rate: 0.0010
+Epoch 3/10
+114/114 - 6s - 53ms/step - loss: 256.3469 - val_loss: 290.4816 - learning_rate: 0.0010
+Epoch 4/10
+114/114 - 7s - 57ms/step - loss: 171.6333 - val_loss: 213.7088 - learning_rate: 0.0010
+Epoch 5/10
+114/114 - 6s - 50ms/step - loss: 144.4208 - val_loss: 224.4341 - learning_rate: 0.0010
+Epoch 6/10
+114/114 - 6s - 52ms/step - loss: 117.5736 - val_loss: 233.3638 - learning_rate: 1.0000e-04
+Epoch 7/10
+114/114 - 6s - 54ms/step - loss: 113.4846 - val_loss: 227.8753 - learning_rate: 1.0000e-04
+Epoch 8/10
+114/114 - 6s - 56ms/step - loss: 110.9233 - val_loss: 228.8873 - learning_rate: 1.0000e-04
+Epoch 9/10
+114/114 - 6s - 56ms/step - loss: 108.2829 - val_loss: 226.4792 - learning_rate: 1.0000e-04
+Epoch 10/10
+114/114 - 6s - 53ms/step - loss: 105.2223 - val_loss: 241.1105 - learning_rate: 1.0000e-04
+{
+  "RMSE": 16.809561799858994,
+  "Score": 715.6395484256846,
+  "epochs": 10,
+  "parameters": 150753,
+  "train_shape": [
+    14489,
+    30,
+    14
+  ],
+  "val_shape": [
+    3242,
+    30,
+    14
+  ],
+  "test_shape": [
+    100,
+    30,
+    14
+  ],
+  "train_ids": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    77,
+    78,
+    79,
+    80,
+    81,
+    83,
+    84,
+    85,
+    86,
+    88,
+    90,
+    91,
+    92,
+    93,
+    94,
+    96,
+    97,
+    99,
+    100
+  ],
+  "val_ids": [
+    4,
+    5,
+    12,
+    14,
+    15,
+    18,
+    28,
+    29,
+    30,
+    32,
+    36,
+    55,
+    65,
+    70,
+    76,
+    82,
+    87,
+    89,
+    95,
+    98
+  ],
+  "window": 30,
+  "cap": 125,
+  "seed": 42,
+  "versions": {
+    "python": "3.12.14",
+    "tensorflow": "2.20.0",
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "sha256": {
+    "test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+    "RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+    "train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8"
+  }
+}

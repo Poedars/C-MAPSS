@@ -1,0 +1,6 @@
+PASS: six source functions AST match after documented np.int compatibility edit.
+PASS: train/validation engine IDs disjoint.
+PASS: sliding windows end-label alignment.
+PASS: score penalizes overestimation more.
+PASS: metrics recomputed from all 100 saved predictions.
+PASS: full 10-epoch training completed; see output/training.log.
